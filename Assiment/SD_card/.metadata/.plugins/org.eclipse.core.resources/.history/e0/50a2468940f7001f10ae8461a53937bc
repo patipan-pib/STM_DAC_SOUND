@@ -1,0 +1,56 @@
+/*
+ * user_diskio.c
+ *
+ *  Created on: Mar 2, 2025
+ *      Author: Admin
+ */
+
+
+#include "main.h"
+#include "fatfs.h"
+
+//extern SPI_HandleTypeDef hspi1;
+
+#define SD_CS_LOW()  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET)
+#define SD_CS_HIGH() HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET)
+
+//DSTATUS disk_initialize(BYTE pdrv) {
+//    // กำหนดค่าเริ่มต้นของ SD Card (สามารถเพิ่มการส่ง CMD0 เพื่อตรวจสอบ SD ได้)
+//    return RES_OK;
+//}
+//
+//DRESULT disk_read(BYTE pdrv, BYTE *buff, DWORD sector, UINT count) {
+//    SD_CS_LOW();
+//    HAL_SPI_Transmit(&hspi1, (uint8_t*)&sector, sizeof(sector), HAL_MAX_DELAY);
+//    HAL_SPI_Receive(&hspi1, buff, count * 512, HAL_MAX_DELAY);
+//    SD_CS_HIGH();
+//    return RES_OK;
+//}
+//
+//DRESULT disk_write(BYTE pdrv, const BYTE *buff, DWORD sector, UINT count) {
+//    SD_CS_LOW();
+//    HAL_SPI_Transmit(&hspi1, (uint8_t*)&sector, sizeof(sector), HAL_MAX_DELAY);
+//    HAL_SPI_Transmit(&hspi1, (uint8_t*)buff, count * 512, HAL_MAX_DELAY);
+//    SD_CS_HIGH();
+//    return RES_OK;
+//}
+//
+//DRESULT disk_ioctl(BYTE pdrv, BYTE cmd, void *buff) {
+//    return RES_OK;
+//}
+
+DSTATUS disk_initialize(BYTE pdrv) {
+    return USER_disk_initialize(pdrv);
+}
+
+DRESULT disk_read(BYTE pdrv, BYTE *buff, DWORD sector, UINT count) {
+    return USER_disk_read(pdrv, buff, sector, count);
+}
+
+DRESULT disk_write(BYTE pdrv, const BYTE *buff, DWORD sector, UINT count) {
+    return USER_disk_write(pdrv, buff, sector, count);
+}
+
+DRESULT disk_ioctl(BYTE pdrv, BYTE cmd, void *buff) {
+    return USER_disk_ioctl(pdrv, cmd, buff);
+}

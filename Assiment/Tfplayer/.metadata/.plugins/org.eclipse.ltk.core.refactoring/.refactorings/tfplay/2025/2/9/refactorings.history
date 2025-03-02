@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;tfplay/Core/Inc/TFPlayer&apos; to &apos;TFPlayer.h&apos;" description="Rename resource &apos;TFPlayer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/TFPlayer" name="TFPlayer.h" stamp="1740781606415" updateReferences="true"/>
+</session>

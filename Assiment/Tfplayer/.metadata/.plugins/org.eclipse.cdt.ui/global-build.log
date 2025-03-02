@@ -1,0 +1,716 @@
+05:28:10 **** Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f767zitx.d" -MT"Core/Startup/startup_stm32f767zitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f767zitx.o" "../Core/Startup/startup_stm32f767zitx.s"
+arm-none-eabi-gcc "../Core/Src/TFPlayer.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TFPlayer.d" -MT"Core/Src/TFPlayer.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TFPlayer.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+../Core/Src/TFPlayer.c:12:10: fatal error: usart.h: No such file or directory
+   12 | #include "usart.h"
+      |          ^~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:37: Core/Src/TFPlayer.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+05:28:20 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/TFPlayer.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TFPlayer.d" -MT"Core/Src/TFPlayer.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TFPlayer.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f7xx.d" -MT"Core/Src/system_stm32f7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f7xx.o"
+In file included from ../Core/Src/TFPlayer.c:11:
+../Core/Src/TFPlayer.c: In function 'TF_Send_Command':
+../Core/Inc/TFPlayer.h:4:50: error: 'huart2' undeclared (first use in this function)
+    4 | #define TF_UART                                 &huart2
+      |                                                  ^~~~~~
+../Core/Src/TFPlayer.c:24:27: note: in expansion of macro 'TF_UART'
+   24 |         HAL_UART_Transmit(TF_UART, CommandPacket, 10, HAL_MAX_DELAY);
+      |                           ^~~~~~~
+../Core/Inc/TFPlayer.h:4:50: note: each undeclared identifier is reported only once for each function it appears in
+    4 | #define TF_UART                                 &huart2
+      |                                                  ^~~~~~
+../Core/Src/TFPlayer.c:24:27: note: in expansion of macro 'TF_UART'
+   24 |         HAL_UART_Transmit(TF_UART, CommandPacket, 10, HAL_MAX_DELAY);
+      |                           ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/TFPlayer.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+05:29:22 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/TFPlayer.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TFPlayer.d" -MT"Core/Src/TFPlayer.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TFPlayer.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  15076	     12	   1852	  16940	   422c	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+05:47:31 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:123:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  123 |   TF_Play(1);
+      |   ^~~~~~~
+../Core/Src/main.c:151:27: error: 'is' undeclared (first use in this function)
+  151 |                           is
+      |                           ^~
+../Core/Src/main.c:151:27: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:151:29: error: expected ';' before '}' token
+  151 |                           is
+      |                             ^
+      |                             ;
+  152 |                   }
+      |                   ~          
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+05:48:18 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:123:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  123 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16680	     12	   1868	  18560	   4880	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+05:56:02 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16680	     12	   1868	  18560	   4880	tfplay.elf
+Finished building: default.size.stdout
+ 
+05:57:58 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16680	     12	   1868	  18560	   4880	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:04:29 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  122 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16680	     12	   1868	  18560	   4880	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:06:58 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  122 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16680	     12	   1868	  18560	   4880	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:07:06 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16680	     12	   1868	  18560	   4880	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:22:47 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  122 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16800	     12	   1868	  18680	   48f8	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:22:53 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16800	     12	   1868	  18680	   48f8	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:23:31 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  122 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16776	     12	   1868	  18656	   48e0	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:24:30 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  122 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16776	     12	   1868	  18656	   48e0	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:25:00 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16776	     12	   1868	  18656	   48e0	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:25:24 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16776	     12	   1868	  18656	   48e0	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:26:32 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  122 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16520	     12	   1868	  18400	   47e0	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:26:46 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16520	     12	   1868	  18400	   47e0	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:34:02 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  122 |   TF_Play(1);
+      |   ^~~~~~~
+../Core/Src/main.c:134:33: error: 'huart3' undeclared (first use in this function); did you mean 'huart2'?
+  134 |           if (HAL_UART_Receive(&huart3, (uint8_t*)&rx_buffer, sizeof(rx_buffer), HAL_MAX_DELAY) == HAL_OK)
+      |                                 ^~~~~~
+      |                                 huart2
+../Core/Src/main.c:134:33: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:137:41: warning: comparison between pointer and integer
+  137 |                           if (rx_buffer == "1") {
+      |                                         ^~
+../Core/Src/main.c:137:41: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:140:48: warning: comparison between pointer and integer
+  140 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:140:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:143:48: warning: comparison between pointer and integer
+  143 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:143:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+06:34:38 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+../Core/Src/main.c:140:41: warning: comparison between pointer and integer
+  140 |                           if (rx_buffer == "1") {
+      |                                         ^~
+../Core/Src/main.c:140:41: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:143:48: warning: comparison between pointer and integer
+  143 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:143:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:146:48: warning: comparison between pointer and integer
+  146 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:146:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  17188	     12	   2004	  19204	   4b04	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:34:50 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17188	     12	   2004	  19204	   4b04	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:36:10 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:41: warning: comparison between pointer and integer
+  140 |                           if (rx_buffer == "1") {
+      |                                         ^~
+../Core/Src/main.c:140:41: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:143:48: warning: comparison between pointer and integer
+  143 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:143:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:146:48: warning: comparison between pointer and integer
+  146 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:146:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  17052	     12	   2004	  19068	   4a7c	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:37:12 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17052	     12	   2004	  19068	   4a7c	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:39:27 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/TFPlayer.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TFPlayer.d" -MT"Core/Src/TFPlayer.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TFPlayer.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:41: warning: comparison between pointer and integer
+  140 |                           if (rx_buffer == "1") {
+      |                                         ^~
+../Core/Src/main.c:140:41: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:143:48: warning: comparison between pointer and integer
+  143 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:143:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:146:48: warning: comparison between pointer and integer
+  146 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:146:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f7xx.d" -MT"Core/Src/system_stm32f7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f7xx.o"
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16336	     12	   2004	  18352	   47b0	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:40:05 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:41: warning: comparison between pointer and integer
+  140 |                           if (rx_buffer == "1") {
+      |                                         ^~
+../Core/Src/main.c:140:41: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:143:48: warning: comparison between pointer and integer
+  143 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:143:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:146:48: warning: comparison between pointer and integer
+  146 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:146:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  15056	     12	   1996	  17064	   42a8	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:41:43 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15056	     12	   1996	  17064	   42a8	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:42:37 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:41: warning: comparison between pointer and integer
+  140 |                           if (rx_buffer == "1") {
+      |                                         ^~
+../Core/Src/main.c:140:41: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:143:48: warning: comparison between pointer and integer
+  143 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:143:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:146:48: warning: comparison between pointer and integer
+  146 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:146:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  15056	     12	   1996	  17064	   42a8	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:42:46 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:92:17: warning: unused variable 'isPaused' [-Wunused-variable]
+   92 |         uint8_t isPaused =0;
+      |                 ^~~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  14700	     12	   1996	  16708	   4144	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:43:01 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14700	     12	   1996	  16708	   4144	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:43:37 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:92:17: warning: unused variable 'isPaused' [-Wunused-variable]
+   92 |         uint8_t isPaused =0;
+      |                 ^~~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  14724	     12	   1996	  16732	   415c	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:43:39 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-size  tfplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14724	     12	   1996	  16732	   415c	tfplay.elf
+Finished building: default.size.stdout
+ 
+06:49:23 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+../Core/Src/main.c:142:41: warning: comparison between pointer and integer
+  142 |                           if (rx_buffer == "1") {
+      |                                         ^~
+../Core/Src/main.c:142:41: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:145:48: warning: comparison between pointer and integer
+  145 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:145:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:148:48: warning: comparison between pointer and integer
+  148 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:148:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  15216	     12	   1996	  17224	   4348	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:50:40 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+../Core/Src/main.c:146:48: warning: comparison between pointer and integer
+  146 |                           } else if (rx_buffer == "2") {
+      |                                                ^~
+../Core/Src/main.c:146:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../Core/Src/main.c:149:48: warning: comparison between pointer and integer
+  149 |                           } else if (rx_buffer == "3") {
+      |                                                ^~
+../Core/Src/main.c:149:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  15216	     12	   1996	  17224	   4348	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:51:35 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  15192	     12	   1996	  17200	   4330	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:56:59 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  17440	     12	   2004	  19456	   4c00	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:58:30 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  17428	     12	   2004	  19444	   4bf4	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+06:59:36 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  17172	     12	   2004	  19188	   4af4	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+07:00:11 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  16732	     12	   2004	  18748	   493c	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+07:01:49 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  17172	     12	   2004	  19188	   4af4	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 
+07:05:09 **** Incremental Build of configuration Debug for project tfplay ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:125:3: warning: implicit declaration of function 'TF_Play' [-Wimplicit-function-declaration]
+  125 |   TF_Play(1);
+      |   ^~~~~~~
+arm-none-eabi-gcc -o "tfplay.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Assiment\Tfplayer\tfplay\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tfplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tfplay.elf
+ 
+arm-none-eabi-size  tfplay.elf 
+arm-none-eabi-objdump -h -S tfplay.elf  > "tfplay.list"
+   text	   data	    bss	    dec	    hex	filename
+  17184	     12	   2004	  19200	   4b00	tfplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: tfplay.list
+ 

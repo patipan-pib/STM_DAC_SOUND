@@ -1,0 +1,8 @@
+../Core/Src/TFPlayer.c:16:6:TF_Send_Command	1
+../Core/Src/TFPlayer.c:27:6:TF_Init	1
+../Core/Src/TFPlayer.c:33:6:TF_Play	1
+../Core/Src/TFPlayer.c:38:6:TF_Set_Volume	1
+../Core/Src/TFPlayer.c:43:6:TF_Next	1
+../Core/Src/TFPlayer.c:48:6:TF_Previous	1
+../Core/Src/TFPlayer.c:53:6:TF_Pause	1
+../Core/Src/TFPlayer.c:58:6:TF_Resume	1

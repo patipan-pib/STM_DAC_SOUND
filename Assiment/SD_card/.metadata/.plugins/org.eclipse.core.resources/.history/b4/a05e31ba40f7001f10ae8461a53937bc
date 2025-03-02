@@ -1,0 +1,23 @@
+#ifndef __USER_DISKIO_H__
+#define __USER_DISKIO_H__
+
+#include "ff.h"    // สำหรับใช้ FatFs API
+#include "stm32f4xx_hal.h"  // สำหรับการใช้งาน HAL
+
+// ฟังก์ชันในการเริ่มต้นดิสก์ (SD Card หรือหน่วยความจำอื่นๆ)
+DSTATUS USER_disk_initialize(BYTE pdrv);
+
+// ฟังก์ชันในการอ่านข้อมูลจากดิสก์
+DRESULT USER_disk_read(BYTE pdrv, BYTE *buff, DWORD sector, UINT count);
+
+// ฟังก์ชันในการเขียนข้อมูลไปยังดิสก์
+DRESULT USER_disk_write(BYTE pdrv, const BYTE *buff, DWORD sector, UINT count);
+
+// ฟังก์ชันสำหรับการควบคุมดิสก์ เช่น การตั้งค่าพิเศษ
+DRESULT USER_disk_ioctl(BYTE pdrv, BYTE cmd, void *buff);
+
+// ตัวแปรที่ใช้ในกรณีที่ทำงานกับ SPI หรือ SDIO (จะถูกประกาศใน user_diskio.c)
+extern SPI_HandleTypeDef hspi1;  // ตัวอย่างการใช้งาน SPI1
+extern SD_HandleTypeDef hsd;     // ตัวอย่างการใช้งาน SDIO
+
+#endif // __USER_DISKIO_H__

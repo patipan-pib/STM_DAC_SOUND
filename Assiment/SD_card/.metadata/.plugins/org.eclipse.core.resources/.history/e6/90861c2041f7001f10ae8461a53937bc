@@ -1,0 +1,55 @@
+/*
+ * user_diskio.c
+ *
+ *  Created on: Mar 2, 2025
+ *      Author: Admin
+ */
+
+#include "user_diskio.h"
+#include "ff.h"
+#include "stm32f7xx_hal.h"
+
+// ตัวแปร SPI หรือ SDIO ที่ใช้
+extern SPI_HandleTypeDef hspi1;  // ตัวอย่างการใช้งาน SPI1
+//extern SD_HandleTypeDef hsd;     // ตัวอย่างการใช้งาน SDIO
+
+DSTATUS USER_disk_initialize(BYTE pdrv) {
+    // ตัวอย่างการเริ่มต้นการเชื่อมต่อกับ SD Card
+    if (pdrv == 0) {
+        // เริ่มต้น SPI หรือ SDIO
+        if (HAL_SD_Init(&hspi1) != HAL_OK) {
+            return STA_NOINIT;  // หากเกิดข้อผิดพลาดในการเริ่มต้น
+        }
+        return RES_OK;  // การเริ่มต้นสำเร็จ
+    }
+    return STA_NOINIT;  // หากพารามิเตอร์ pdrv ไม่ถูกต้อง
+}
+
+DRESULT USER_disk_read(BYTE pdrv, BYTE *buff, DWORD sector, UINT count) {
+    // การอ่านข้อมูลจาก SD Card
+    if (pdrv == 0) {
+        // ใช้ HAL_SD_ReadBlocks() ในการอ่านข้อมูล
+        if (HAL_SD_ReadBlocks(&hsd, buff, sector, count) != HAL_OK) {
+            return RES_ERROR;  // หากเกิดข้อผิดพลาด
+        }
+        return RES_OK;  // การอ่านสำเร็จ
+    }
+    return RES_ERROR;  // หากพารามิเตอร์ pdrv ไม่ถูกต้อง
+}
+
+DRESULT USER_disk_write(BYTE pdrv, const BYTE *buff, DWORD sector, UINT count) {
+    // การเขียนข้อมูลไปยัง SD Card
+    if (pdrv == 0) {
+        // ใช้ HAL_SD_WriteBlocks() ในการเขียนข้อมูล
+        if (HAL_SD_WriteBlocks(&hsd, (uint8_t *)buff, sector, count) != HAL_OK) {
+            return RES_ERROR;  // หากเกิดข้อผิดพลาด
+        }
+        return RES_OK;  // การเขียนสำเร็จ
+    }
+    return RES_ERROR;  // หากพารามิเตอร์ pdrv ไม่ถูกต้อง
+}
+
+DRESULT USER_disk_ioctl(BYTE pdrv, BYTE cmd, void *buff) {
+    // ใช้ในการควบคุมการทำงานพิเศษ
+    return RES_OK;
+}

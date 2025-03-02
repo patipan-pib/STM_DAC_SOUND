@@ -1,0 +1,11 @@
+../Core/Src/wavplayer.c:33:13:__WAV_SetSampleFreq	2
+../Core/Src/wavplayer.c:51:6:WAV_Init	1
+../Core/Src/wavplayer.c:61:16:__WAV_IsWavFile	3
+../Core/Src/wavplayer.c:76:18:WAV_GetState	1
+../Core/Src/wavplayer.c:88:9:WAV_FilterFile	8
+../Core/Src/wavplayer.c:138:18:WAV_Play	9
+../Core/Src/wavplayer.c:210:18:WAV_Pause	1
+../Core/Src/wavplayer.c:224:18:WAV_Resume	1
+../Core/Src/wavplayer.c:243:18:WAV_Stop	1
+../Core/Src/wavplayer.c:260:18:WAV_Next	2
+../Core/Src/wavplayer.c:275:18:WAV_Back	1

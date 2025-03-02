@@ -1,0 +1,10 @@
+02:24:53 **** Incremental Build of configuration Debug for project sd ****
+make -j12 all 
+arm-none-eabi-size  sd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38760	    116	   5716	  44592	   ae30	sd.elf
+Finished building: default.size.stdout
+ 
+
+02:24:53 Build Finished. 0 errors, 0 warnings. (took 194ms)
+
