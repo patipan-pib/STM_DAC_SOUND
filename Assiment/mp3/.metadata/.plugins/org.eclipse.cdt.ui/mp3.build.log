@@ -1,0 +1,10 @@
+06:06:54 **** Incremental Build of configuration Debug for project mp3 ****
+make -j12 all 
+arm-none-eabi-size  mp3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39388	    196	   2532	  42116	   a484	mp3.elf
+Finished building: default.size.stdout
+ 
+
+06:06:54 Build Finished. 0 errors, 0 warnings. (took 131ms)
+
